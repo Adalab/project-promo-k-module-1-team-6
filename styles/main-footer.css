@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.footer {
+  width: 100%;
+  /* max-width: 320px; */
+  font-family: "Open Sans", serif;
+  background-color: white;
+  display: flex;
+  width: 320px;
+  height: 240px;
+  border-top: 1px solid grey;
+  flex-direction: column;
+  border: 1px solid grey;
+}
+
+.team-name {
+  border: 1px solid grey;
+  font-family: "Open Sans", serif;
+  width: 172px;
+  height: 20px;
+  margin-left: 74px;
+  margin-right: 74px;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+}
+.footer-nav-list {
+  border: 1px solid grey;
+  width: 114px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 103px;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b8b8b9;
+}
+
+.logo {
+  border: 1px solid grey;
+  width: 115.9px;
+  height: 45px;
+  margin-left: 102px;
+  margin-right: 102px;
+  margin-bottom: 45px;
+  margin-top: 30px;
+}
