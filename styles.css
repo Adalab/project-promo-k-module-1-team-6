@@ -1,0 +1,177 @@
+/*css header*/
+
+h1 {
+}
+.header-title {
+  width: 320px;
+  height: 60px;
+  background-color: #099d8d;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.header {
+  top: 0;
+  position: fixed;
+  padding: 0 20px 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  width: 100%;
+}
+
+.equipo {
+  height: 100px;
+  width: 100px;
+}
+
+.list {
+  padding: ;
+  font-size: ;
+  font-weight: ;
+  background: red;
+  margin: ;
+  display: inline;
+  padding: 12px;
+}
+/*css equipo, fortalezas debilidades */
+/* Equipo */
+h2 {
+  height: 45px;
+  font-family: Rubik-medium;
+  font-size: 24px;
+  color: #14d9c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-Presentación {
+  width: 290px;
+  /* height: 504; */
+  padding: 15px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  color: #54585a;
+  margin: 16px;
+}
+/* Debilidades y Fortalezas */
+
+/*css quienes somos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.our-team {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+}
+.photo-developer {
+  width: 180px;
+  height: 180px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+.socialLogos {
+  width: 124px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  fill: #099d8d;
+  list-style: none;
+  padding: 0;
+}
+.logo {
+  width: 50%;
+}
+.developer {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.title {
+  /* width: 193px; */
+  height: 45px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #099d8d;
+}
+
+img {
+  width: 20%;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.developer-name {
+  width: 150px;
+  height: 45px;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  margin-top: 0;
+}
+.description {
+  width: 290px;
+  /* height: 200px; */
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+  margin-top: 0;
+}
+/* @media screen and (min-width: 700px) {
+      .marga {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        max-width: 900px;
+      }
+      .photo {
+        max-width: 20%;
+      }
+      .team {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    } */
+/* css footer*/
