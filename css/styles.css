@@ -46,6 +46,14 @@
   background: #14d9c4;
   padding: 12px 17px 7px 17px;
 }
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+a:visited {
+  color: white;
+}
 
 .name-group {
   font-family: 'Rubik', sans-serif;
@@ -68,8 +76,8 @@
   color: #000000;
   position: relative;
   top: -26px;
-  left: 5%;
-  padding: 15px 14px 15px 16px;
+  right: -15px;
+  padding: 23px 14px 15px 16px;
 }
 .lema-text {
   width: 260px;
@@ -97,11 +105,14 @@
   line-height: 45px;
 }
 .H2-Equipo {
+  font-family: 'Rubik', sans-serif;
   display: inline-block;
   position: relative;
   font-size: 24px;
   line-height: 45px;
   color: #14d9c4;
+  padding-bottom: 15px;
+  font-weight: 500;
 }
 .Slide-Presentación {
   width: 290px;
@@ -118,13 +129,16 @@
   line-height: 27px;
 }
 /* Debilidades y Fortalezas */
+.H3-Fortalezas {
+  padding-top: 50px;
+}
 .H3-Debilidades,
 .H3-Fortalezas {
   display: block;
   color: #099d8d;
   width: 290px;
   height: 45px;
-  font-family: Rubik-medium;
+  font-family: 'Rubik', sans-serif;
   font-size: 22px;
   display: flex;
   flex-direction: column;
@@ -132,6 +146,7 @@
   align-items: center;
 }
 .Slide-Fortalezas-Debilidades {
+  background-color: rgba(184, 184, 185, 0.2);
   /* width: 100%; */
   padding: 15px;
   /* margin: 16px; */
@@ -142,8 +157,8 @@
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   color: #54585a;
-  background: #b8b8b9;
-  opacity: 0.2;
+  /* background: #b8b8b9; */
+  /* opacity: 0.2; */
   line-height: 24px;
   text-align: center;
   padding: 0 15px 45px 15px;
@@ -158,7 +173,11 @@
   background: white;
   transform: rotate(45deg);
   position: relative;
-  bottom: 243px;
+  bottom: 253px;
+  left: 134px;
+}
+.P-Fortalezas {
+  padding-top: 20px;
 }
 
 /*css quienes somos */
@@ -182,6 +201,7 @@ body {
   border: solid 5px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   margin: auto 30px auto 30px;
+  background-size: cover;
 }
 .socialLogos {
   width: 124px;
@@ -274,7 +294,7 @@ body {
   align-items: center;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  border: 1px solid #b8b8b9;
+  border-top: 1px solid #b8b8b9;
 }
 .copyright {
   height: 20px;
