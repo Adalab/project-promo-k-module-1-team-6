@@ -162,11 +162,6 @@
 }
 
 /*css quienes somos */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -176,11 +171,17 @@ body {
   text-align: center;
   background-color: white;
 }
-.photo-developer {
+.web {
+  color: #099d8d;
+  text-decoration: none;
+}
+
+.img-developer {
   width: 180px;
   height: 180px;
   border: solid 5px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
+  margin: auto 30px auto 30px;
 }
 .socialLogos {
   width: 124px;
@@ -197,20 +198,29 @@ body {
 .social-media-logo {
   width: 50%;
 }
-.developer {
-  width: 60%;
-  margin: auto;
-  padding-bottom: 20px;
+.dot {
+  height: 3px;
+  width: 3px;
+  background-color: #099d8d;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: -6px;
+  right: 6px;
 }
-.title {
-  /* width: 193px; */
+.developer {
+  margin: auto;
+  text-align: center;
+  padding: 0 44px 20px;
+}
+.title-our-team {
   height: 45px;
   font-family: 'Rubik', sans-serif;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.88;
+  line-height: 45px;
   letter-spacing: normal;
   text-align: center;
   margin-top: 30px;
@@ -218,9 +228,6 @@ body {
   color: #099d8d;
 }
 
-img {
-  width: 20%;
-}
 .team {
   display: flex;
   flex-direction: column;
@@ -242,7 +249,6 @@ img {
 }
 .description {
   width: 290px;
-  /* height: 200px; */
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -253,23 +259,7 @@ img {
   color: #54585a;
   margin-top: 0;
 }
-/* @media screen and (min-width: 700px) {
-      .marga {
-        display: flex;
-        flex-direction: row;
-        width: 70%;
-        max-width: 900px;
-      }
-      .photo {
-        max-width: 20%;
-      }
-      .team {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-    } */
+
 /* css footer*/
 <footer class="footer">
       <div class="team-name-footer">
@@ -408,6 +398,40 @@ a {
   .container-text-name-group {
     background-color: transparent;
   }
+  /* quienes somos */
+  .our-team {
+    max-width: 765px;
+  }
+  .developer {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+  .photo-developer {
+    max-width: 205px;
+  }
+  .team {
+    width: 445px;
+  }
+  .description {
+    width: 400px;
+    text-align: left;
+  }
+  .team {
+    align-items: flex-start;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .team.team-text-right {
+    align-items: flex-end;
+  }
+  .description.right {
+    text-align: right;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -436,4 +460,8 @@ a {
     font-size: 24px;
     line-height: 1.25;
   }
+    /* quienes somos*/
+    .our-team {
+      max-width: 900px;
+    }
 }
