@@ -24,7 +24,9 @@
   z-index: -1;
 }
 .text-header {
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
+  top: 0;
   top: 0;
   width: 100%;
   opacity: 0.9;
@@ -171,7 +173,7 @@
   text-align: center;
   align-items: center;
   opacity: 1;
-  overflow: auto;
+  /* overflow: auto; */
 }
 .H3-Debilidades,
 .H3-Fortalezas {
@@ -199,6 +201,10 @@
   line-height: 24px;
   color: var(--texto-párrafos);
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Presentation {
+  /* margin-top: -10px; */
 }
 .Slide-Fortalezas-Debilidades {
   margin: 0px;
@@ -590,7 +596,7 @@ body {
   .footer {
     border-top: 1px solid #b8b8b9;
     height: 161px;
-    position: relative;
+    /* position: relative; */
     padding: 0;
     margin: auto;
   }
