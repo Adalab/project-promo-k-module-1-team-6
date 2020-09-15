@@ -26,6 +26,7 @@
 .text-header {
   /* position: absolute; */
   position: fixed;
+  z-index: 99;
   top: 0;
   top: 0;
   width: 100%;
@@ -276,7 +277,6 @@
   .box-white {
     margin: 0px;
     top: 40px;
-    left: 50%;
     transform: translate(0px, -175px) rotate(45deg);
   }
 }
@@ -590,7 +590,11 @@ body {
   }
   /* quienes somos*/
   .our-team {
-    max-width: 900px;
+    max-width: 1000px;
+  }
+  .img-developer {
+    width: 278px;
+    height: 278px;
   }
   /*desktop footer style*/
   .footer {
