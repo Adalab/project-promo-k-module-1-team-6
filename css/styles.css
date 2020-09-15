@@ -94,8 +94,9 @@
   line-height: 1.39;
   letter-spacing: normal;
 }
-/*css equipo, fortalezas debilidades */
-/* Sección-Equipo-mobile- */
+
+/* Section Team- CSS */
+
 * {
   /* width: 100%; */
   padding: 0px;
@@ -111,7 +112,7 @@
   --texto-párrafos: #54585a;
   --background-FyD: #b8b8b933;
 }
-.artículo-presentación {
+.Team-Article {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,7 +120,7 @@
   overflow: auto;
   margin: auto;
 }
-.H2-Equipo {
+.Team-Title {
   width: 89px;
   display: inline-block;
   font-size: 24px;
@@ -127,7 +128,7 @@
   color: var(--titulo-equipo-);
   font-family: "Rubik", sans-serif;
 }
-.p1 {
+.Team-Paragraph {
   width: 260px;
   padding: 0px 15px 30px 15px;
   margin: 0px;
@@ -139,7 +140,7 @@
   align-items: center;
   color: var(--texto-párrafos);
 }
-.Slide-Presentación {
+.Team-Slide {
   margin: 0px;
   display: flex;
   flex-direction: column;
@@ -148,7 +149,10 @@
   align-content: center;
   position: relative;
 }
-.box-white {
+
+/* Box-White */
+
+.Box-White {
   width: 30px;
   height: 30px;
   display: flex;
@@ -163,9 +167,10 @@
   left: 45%;
   z-index: 1;
 }
-/* Debilidades y Fortalezas */
-.Artículo-Fortalezas,
-.Artículo-Debilidades {
+/* Weaknesses and Strengths */
+
+.Strengths-Article,
+.Weaknesses-Article {
   margin: 0px;
   display: flex;
   flex-direction: column;
@@ -175,8 +180,8 @@
   opacity: 1;
   /* overflow: auto; */
 }
-.H3-Debilidades,
-.H3-Fortalezas {
+.Weaknesses-Title,
+.Strengths-Title {
   opacity: 1;
   display: inline-block;
   color: var(--titulo-FyD-);
@@ -188,8 +193,8 @@
   font-size: 22px;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
-.P-Debilidades,
-.P-Fortalezas {
+.Weaknesses-Paragraph,
+.Strength-Paragraph {
   width: 260px;
   margin: auto;
   display: inline-block;
@@ -203,10 +208,10 @@
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.Presentation {
+.Team {
   /* margin-top: -10px; */
 }
-.Slide-Fortalezas-Debilidades {
+.Weaknesses-and-Strengths-Slide {
   margin: 0px;
   padding: 30px 0px 45px 0px;
   display: flex;
@@ -220,27 +225,27 @@
     box-sizing: border-box;
     /* margin: auto; */
   }
-  .P-Debilidades,
-  .P-Fortalezas {
+  .Weaknesses-Paragraph,
+  .Strength-Paragraph {
     width: 324px;
   }
-  .Slide-Presentación {
+  .Team-Slide {
     display: flex;
     flex-direction: row;
     position: relative;
   }
-  .H2-Equipo {
+  .Team-Title {
     position: relative;
     left: 45%;
     bottom: 12px;
   }
-  .p1,
-  .H2-Equipo {
+  .Team-Paragraph,
+  .Team-Title {
     margin: 0px;
     /* position: relative; */
     width: 678px;
   }
-  .box-white {
+  .Box-White {
     margin: 0px;
     /* display: flex;
     justify-content: center;
@@ -249,7 +254,7 @@
     left: 0px;
     transform: translate(0px, -175px) rotate(45deg);
   }
-  .Slide-Fortalezas-Debilidades {
+  .Weaknesses-and-Strengths-Slide {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -257,30 +262,31 @@
     /* justify-content: center;
     align-items: center; */
   }
-  .Artículo-Debilidades,
-  .Artículo-Fortalezas,
-  .H3-Debilidades,
-  .H3-Fortalezas {
+  .Strengths-Article,
+  .Weaknesses-Article,
+  .Weaknesses-Title,
+  .Strengths-Title {
     justify-content: center;
     align-items: center;
   }
 }
 @media (min-width: 1200px) {
-  .P-Debilidades,
-  .P-Fortalezas {
+  .Weaknesses-Paragraph,
+  .Strength-Paragraph {
     width: 439px;
   }
-  .p1 {
+  .Team-Paragraph {
     width: 601px;
   }
-  .box-white {
+  .Box-White {
     margin: 0px;
     top: 40px;
     transform: translate(0px, -175px) rotate(45deg);
   }
 }
 
-/* Final-seccion-equipo */
+/* Final-Section-Team */
+
 /*css quienes somos */
 body {
   font-family: "Open Sans", sans-serif;
