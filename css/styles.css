@@ -107,10 +107,10 @@
   src: url(https://fonts.google.com/specimen/Rubik?sidebar.open=true&selection.family=Rubik:wght@500);
 }
 :root {
-  --titulo-equipo-: #14d9c4;
-  --titulo-FyD-: #099d8d;
-  --texto-párrafos: #54585a;
-  --background-FyD: #b8b8b933;
+  --Team-Title-: #14d9c4;
+  --W-S-Title-: #099d8d;
+  --Paragraph-Color-: #54585a;
+  --Background-Color: #b8b8b933;
 }
 .Team-Article {
   display: flex;
@@ -125,7 +125,7 @@
   display: inline-block;
   font-size: 24px;
   line-height: 45px;
-  color: var(--titulo-equipo-);
+  color: var(--Team-Title-);
   font-family: "Rubik", sans-serif;
 }
 .Team-Paragraph {
@@ -138,7 +138,7 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  color: var(--texto-párrafos);
+  color: var(--Paragraph-Color-);
 }
 .Team-Slide {
   margin: 0px;
@@ -184,7 +184,7 @@
 .Strengths-Title {
   opacity: 1;
   display: inline-block;
-  color: var(--titulo-FyD-);
+  color: var(--W-S-Title-);
   width: 290px;
   padding-left: 15px;
   padding-right: 15px;
@@ -204,7 +204,7 @@
   padding-bottom: 45px;
   font-size: 16px;
   line-height: 24px;
-  color: var(--texto-párrafos);
+  color: var(--Paragraph-Color-);
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
@@ -217,7 +217,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: var(--background-FyD);
+  background-color: var(--Background-Color);
 }
 /* @MediaQueries-Equipo-Tablet*/
 @media (min-width: 768px) {
