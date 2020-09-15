@@ -116,7 +116,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* overflow: auto; */
+  overflow: auto;
   margin: auto;
 }
 .H2-Equipo {
