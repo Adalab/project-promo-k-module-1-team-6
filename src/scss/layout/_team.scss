@@ -1,0 +1,179 @@
+:root {
+  --Team-Title-: #14d9c4;
+  --W-S-Title-: #099d8d;
+  --Paragraph-Color-: #54585a;
+  --Background-Color: #b8b8b933;
+}
+.Team-Article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  margin: auto;
+}
+.Team-Title {
+  width: 89px;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 45px;
+  color: var(--Team-Title-);
+  font-family: "Rubik", sans-serif;
+}
+.Team-Paragraph {
+  width: 260px;
+  padding: 0px 15px 30px 15px;
+  margin: 0px;
+  font-size: 16px;
+  line-height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: var(--Paragraph-Color-);
+}
+.Team-Slide {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
+  align-content: center;
+  position: relative;
+}
+
+/* Box-White */
+
+.Box-White {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  transform: rotate(45deg);
+  position: relative;
+  /* top: 15px; */
+  bottom: 350px;
+  left: 45%;
+  z-index: 1;
+}
+/* Weaknesses and Strengths */
+
+.Strengths-Article,
+.Weaknesses-Article {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  opacity: 1;
+  /* overflow: auto; */
+}
+.Weaknesses-Title,
+.Strengths-Title {
+  opacity: 1;
+  display: inline-block;
+  color: var(--W-S-Title-);
+  width: 290px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 22px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.Weaknesses-Paragraph,
+.Strength-Paragraph {
+  width: 260px;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 45px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--Paragraph-Color-);
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.Team {
+  /* margin-top: -10px; */
+}
+.Weaknesses-and-Strengths-Slide {
+  margin: 0px;
+  padding: 30px 0px 45px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--Background-Color);
+}
+
+@media (min-width: 768px) {
+  // * {
+  //   box-sizing: border-box;
+  //   /* margin: auto; */
+  // }
+  .Weaknesses-Paragraph,
+  .Strength-Paragraph {
+    width: 324px;
+  }
+  .Team-Slide {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .Team-Title {
+    text-align: center;
+    // position: relative;
+    // left: 45%;
+    // bottom: 12px;
+  }
+  .Team-Paragraph,
+  .Team-Title {
+    margin: 0px;
+    /* position: relative; */
+    width: 678px;
+  }
+  .Box-White {
+    margin: 0px;
+    /* display: flex;
+      justify-content: center;
+      flex-flow: row nowrap; */
+    top: 16px;
+    left: 0px;
+    transform: translate(0px, -175px) rotate(45deg);
+  }
+  .Weaknesses-and-Strengths-Slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center;
+      align-items: center; */
+  }
+  .Strengths-Article,
+  .Weaknesses-Article,
+  .Weaknesses-Title,
+  .Strengths-Title {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1200px) {
+  .Weaknesses-Paragraph,
+  .Strength-Paragraph {
+    width: 439px;
+  }
+  .Team-Paragraph {
+    width: 601px;
+  }
+  .Box-White {
+    margin: 0px;
+    top: 40px;
+    transform: translate(0px, -175px) rotate(45deg);
+  }
+}
