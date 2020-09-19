@@ -13,12 +13,15 @@ input {
   padding-right: 14px;
 }
 
+.contact__title--text--p {
+  margin-bottom: 20px;
+}
 .contact__title {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 15px;
   color: #099d8d;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
@@ -29,7 +32,7 @@ input {
 
 .contact__title--text {
   width: 100%;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -43,7 +46,7 @@ input {
 
 .contact__title--textsmall {
   width: 100%;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -60,7 +63,7 @@ span {
 }
 
 .label {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -76,7 +79,7 @@ span {
   height: 45px;
   border: solid 1px #b8b8b9;
   padding: 11px 15px 15px 15px;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -92,7 +95,7 @@ span {
   width: 100%;
   border: solid 1px #b8b8b9;
   padding: 11px 15px 15px 15px;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -120,7 +123,7 @@ span {
 }
 
 .label-text {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
