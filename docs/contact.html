@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>She-wolves-code</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-hero">
+        <img class="hero" src="./assets/images/hero3.jpg" alt="" />
+      </div>
+      <div class="text-header">
+        <div class="container-text-name-group">
+          <h1 class="name-group">SHE-WOLVES-CODE</h1>
+        </div>
+        <nav>
+          <ul class="list">
+            <li><a class="click" href="index.html#equipo">EQUIPO</a></li>
+            <li>
+              <a class="click" href="index.html#quienes-somos">QUIENES SOMOS</a>
+            </li>
+            <li><a class="click" href="contact.html">CONTACTO</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- <div class="lema">
+        <h5 class="lema-text">four are better than one</h5>
+      </div> -->
+    </header>
+
+    <section class="contact">
+      <h1 class="contact__title">Contacto</h1>
+      <div class="contact__title--text">
+        <p class="contact__title--text--p">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum
+          ullamcorper mauris, vel convallis metus eleifend in.
+        </p>
+
+        <small class="contact__title--textsmall">
+          Todos los campos marcados con <span>*</span> son obligatorios.</small
+        >
+      </div>
+
+      <form class="contact__form" action="/signup" method="post">
+        <label class="label firstName" for="firstName"
+          >Nombre completo <span>*</span></label
+        >
+        <input
+          class="field"
+          placeholder="Nombre..."
+          id="firstName"
+          type="text"
+          name="firstName"
+          required
+        />
+        <div class="descktop">
+          <div class="descktop-email">
+            <label class="label" for="emailAddress">Email <span>*</span></label>
+            <input
+              class="field"
+              id="emailAddress"
+              type="email"
+              name="emailAddress"
+              value="nombre.apellidos@email.com"
+              required
+            />
+          </div>
+          <div class="descktop-tel">
+            <label class="label" for="telephone">Teléfono</label>
+            <input
+              class="field"
+              placeholder="Ej: 12345678"
+              type="tel"
+              id="telephone"
+              name="telephone"
+            />
+          </div>
+        </div>
+        <label class="label-text" for="comments">Mensaje <span>*</span></label>
+        <textarea
+          class="field-text"
+          placeholder="¿Qué necesitas?"
+          id="comments"
+          name="comments"
+          required
+          rows="8"
+          cols="35"
+        ></textarea>
+        <input class="submit" type="submit" value="Enviar" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <span class="copyright"> she-wolves-code &copy;2020</span>
+      <nav class="nav-footer">
+        <ul class="list-footer">
+          <li class="list-item">
+            <a class="list-link" href="index.html#equipo">Equipo</a>
+          </li>
+          <li class="list-item">
+            <a class="list-link" href="index.html#quienes-somos"
+              >Quiénes somos</a
+            >
+          </li>
+          <li class="list-item">
+            <a class="list-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <img
+        class="logo"
+        src="./assets/images/logo-adalab.png"
+        alt="Logo de Adalab"
+      />
+    </footer>
+  </body>
+</html>
