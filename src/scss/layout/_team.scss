@@ -1,9 +1,9 @@
-:root {
-  --Team-Title-: #14d9c4;
-  --W-S-Title-: #099d8d;
-  --Paragraph-Color-: #54585a;
-  --Background-Color: #b8b8b933;
-}
+// :root {
+//   --Team-Title-: #14d9c4;
+//   --W-S-Title-: #099d8d;
+//   --Paragraph-Color-: #54585a;
+//   --Background-Color: #b8b8b933;
+// }
 .Team-Article {
   display: flex;
   flex-direction: column;
@@ -17,8 +17,8 @@
   display: inline-block;
   font-size: 24px;
   line-height: 45px;
-  color: var(--Team-Title-);
-  font-family: "Rubik", sans-serif;
+  color: $color-light-midtone;
+  font-family: $font-face-titles;
 }
 .Team-Paragraph {
   width: 260px;
@@ -30,13 +30,13 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  color: var(--Paragraph-Color-);
+  color: $paragrah-color;
 }
 .Team-Slide {
   margin: 0px;
   display: flex;
   flex-direction: column;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: $font-face-texts;
   margin: 0px;
   align-content: center;
   position: relative;
@@ -51,10 +51,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: $color-light;
   transform: rotate(45deg);
   position: relative;
-  /* top: 15px; */
   bottom: 350px;
   left: 45%;
   z-index: 1;
@@ -70,20 +69,19 @@
   text-align: center;
   align-items: center;
   opacity: 1;
-  /* overflow: auto; */
 }
 .Weaknesses-Title,
 .Strengths-Title {
   opacity: 1;
   display: inline-block;
-  color: var(--W-S-Title-);
+  color: $color-midtone;
   width: 290px;
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
   line-height: 45px;
   font-size: 22px;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: $font-face-texts;
 }
 .Weaknesses-Paragraph,
 .Strength-Paragraph {
@@ -96,27 +94,20 @@
   padding-bottom: 45px;
   font-size: 16px;
   line-height: 24px;
-  color: var(--Paragraph-Color-);
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: $paragrah-color;
+  font-family: $font-face-texts;
 }
 
-.Team {
-  /* margin-top: -10px; */
-}
 .Weaknesses-and-Strengths-Slide {
   margin: 0px;
   padding: 30px 0px 45px 0px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: var(--Background-Color);
+  background-color: $color-midtone-team;
 }
 
 @media (min-width: 768px) {
-  // * {
-  //   box-sizing: border-box;
-  //   /* margin: auto; */
-  // }
   .Weaknesses-Paragraph,
   .Strength-Paragraph {
     width: 324px;
@@ -128,21 +119,14 @@
   }
   .Team-Title {
     text-align: center;
-    // position: relative;
-    // left: 45%;
-    // bottom: 12px;
   }
   .Team-Paragraph,
   .Team-Title {
     margin: 0px;
-    /* position: relative; */
     width: 678px;
   }
   .Box-White {
     margin: 0px;
-    /* display: flex;
-      justify-content: center;
-      flex-flow: row nowrap; */
     top: 16px;
     left: 0px;
     transform: translate(0px, -175px) rotate(45deg);
@@ -152,8 +136,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* justify-content: center;
-      align-items: center; */
   }
   .Strengths-Article,
   .Weaknesses-Article,
