@@ -7,8 +7,7 @@ input {
 
 .contact {
   width: 320px;
-  margin: auto;
-  margin-top: 30px;
+  margin: 0 auto 0 auto;
   padding-left: 14px;
   padding-right: 14px;
 }
@@ -90,6 +89,16 @@ span {
   margin-bottom: 30px;
   margin-top: 9px;
 }
+.field:focus {
+  outline: none;
+  border-color: $color-midtone;
+  box-shadow: 0 0 10px $color-midtone;
+}
+.field-text:focus {
+  outline: none;
+  border-color: $color-midtone;
+  box-shadow: 0 0 10px$color-midtone;
+}
 
 .field-text {
   width: 100%;
@@ -140,8 +149,6 @@ span {
 @media screen and (min-width: 767px) {
   .contact {
     width: 442px;
-    padding-top: 30px;
-    margin: auto;
   }
   .contact__title {
     padding-left: 30px;
@@ -156,8 +163,6 @@ span {
 @media screen and (min-width: 1200px) {
   .contact {
     width: 601px;
-    margin: auto;
-    padding-top: 30px;
   }
   .contact-text {
     padding-left: 30px;

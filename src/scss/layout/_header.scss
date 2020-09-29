@@ -9,7 +9,6 @@
 .container-hero {
   width: 100%;
   height: 421px;
-  background-color: $color-dark-hero;
   z-index: -1;
   display: flex;
   align-items: center;
@@ -44,9 +43,14 @@
   text-decoration: none;
   color: $color-light;
   cursor: pointer;
+  transition: color ease 1s 3s;
 }
-.click:visited {
-  color: $color-light;
+.click:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  color: $color-dark;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .name-group {
@@ -66,13 +70,17 @@
 .lema {
   width: 290px;
   height: 80px;
-  background-color: $color-light;
-  color: $color-dark;
+  border-radius: 10px;
+  background-color: $color-dark;
+  color: $color-light;
   position: relative;
   top: -29px;
-  /* right: -15px; */
-  left: 4%;
   padding: 23px 14px 15px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 .lema-text {
   width: 260px;
@@ -91,10 +99,12 @@
     width: 100%;
     height: 421px;
     overflow: hidden;
+    align-items: center;
+    padding-bottom: 60px;
   }
 
   .hero {
-    width: 70%;
+    width: 90%;
   }
 
   .text-header {
@@ -117,10 +127,12 @@
   }
   .lema {
     top: -77px;
-    opacity: 0.8;
+    left: -115px;
     width: 441px;
     height: 80px;
     padding: 15px 30px 15px 30px;
+    align-items: flex-start;
+    margin-top: 50px;
   }
   .lema-text {
     line-height: 40px;
@@ -141,6 +153,7 @@
   /* header */
   .container-hero {
     height: 421px;
+    padding-bottom: 80px;
   }
 
   .hero {
@@ -159,10 +172,11 @@
   }
   .lema {
     top: -77px;
-    opacity: 0.8;
     width: 574px;
     height: 90px;
     padding: 10px 30px 10px 30px;
+    left: -171px;
+    margin-top: 60px;
   }
   .lema-text {
     width: auto;
@@ -172,17 +186,3 @@
     line-height: 1.25;
   }
 }
-/* HEADER-CONTACT */
-
-// .lema,
-// .lema-none {
-//   display: none;
-// }
-
-// .contact-hero {
-//   background-image: url("../images/hero.jpeg");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   height: 421px;
-//   z-index: -1;
-// }

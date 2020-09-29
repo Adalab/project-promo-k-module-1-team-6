@@ -17,7 +17,15 @@
   border-radius: 4px;
   margin: auto 30px auto 30px;
   background-size: cover;
+  filter: grayscale(100%);
+  opacity: 0.9;
+  cursor: pointer;
 }
+.img-developer:hover {
+  opacity: 1;
+  filter: hue-rotate(00deg);
+}
+
 .socialLogos {
   width: 124px;
   height: 30px;
@@ -69,7 +77,6 @@
   align-items: center;
 }
 .developer-name {
-  /* width: 150px; */
   height: 45px;
   font-size: 20px;
   font-family: $font-face-texts;
